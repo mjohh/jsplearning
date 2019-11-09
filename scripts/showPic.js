@@ -3,6 +3,7 @@ function showPic(whichpic){
 	var placeholder = document.getElementById("placeholder");
 	placeholder.setAttribute("src", source);
 	var text = whichpic.getAttribute("title");
+	//alert(whichpic.title);
 	var description = document.getElementById("description");
 	description.childNodes[0].nodeValue = text;
 	return true;
